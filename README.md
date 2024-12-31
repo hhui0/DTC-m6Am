@@ -23,13 +23,13 @@ To use the STM-ac4C model for prediction, you need to follow these steps:
 ```python
 from models.DTC_m6Am import classifier
 from utils.one_trial import LitModel
-from utils.prepare_data import get_m6aminer
+from utils.prepare_data import get_m6am
 ```
 
 2. Get the m6Am data as trainset and testset.
 
 ```python
-trainset, testset = get_m6aminer()
+trainset, testset = get_m6am()
 ```
 
 3. Get the hyperparameters and the model parameters of the classifier.
