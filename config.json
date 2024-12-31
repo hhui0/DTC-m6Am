@@ -1,0 +1,14 @@
+{"epoch":300,
+  "alpha":0.8,
+  "gamma":2,
+  "lr":1e-4,
+  "model_name": "DTC-m6Am",
+  "train_file": "train.csv",
+  "monitor": "valid_S",
+  "optimizer": "AdamW",
+  "seed": 42,
+  "shuffle": true,
+  "encode_way":"onehot",
+  "Denseblock_num":1,
+  "in_channels":4
+}
