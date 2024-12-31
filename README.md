@@ -56,7 +56,7 @@ model = LitModel(classifier, hparams , model_params)
 model.test(testset, ckpt_path="ckpt/mcc=0.411.ckpt")
 ```
 
-6. Use the `predict_proba` function to get the probability of each sample containing an ac4C site. You need to specify the checkpoint path of the trained model.
+6. Use the `predict_proba` function to get the probability of each sample containing an m6Am site. You need to specify the checkpoint path of the trained model.
 
 ```python
 proba = model.predict_proba(testset, ckpt_path="ckpt/mcc=0.411.ckpt")
