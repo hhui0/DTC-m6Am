@@ -17,8 +17,12 @@ pip install -r requirements.txt
 
 ## Usage
 
-To use the STM-ac4C model for prediction, you need to follow these steps:
 
+### Website use
+DTC-m6Am website can be accessed at https://www.zahc.top.
+
+### Local use
+To use the DTC-m6Am model for prediction, you need to follow these steps:
 1. Import the classifier and the utils from the project folder.
 
 ```python
