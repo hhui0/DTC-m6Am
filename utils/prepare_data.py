@@ -49,8 +49,8 @@ class iDataset(Dataset):
         return len(self.argc[0])
 
 
-def get_m6aminer(fe=iFunction.to_one_hot):
-    path = os.path.join("data", "m6aminer/processed")
+def get_m6am(fe=iFunction.to_one_hot):
+    path = os.path.join("data", "m6am/processed")
     trainset = pd.read_csv(os.path.join(path, f"train.csv"))
     testset = pd.read_csv(os.path.join(path, f"test.csv"))
     return iDataset([trainset['sequences']], y=trainset['label'], fe=fe), iDataset(
