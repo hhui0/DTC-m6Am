@@ -2,6 +2,7 @@
   "alpha":0.8,
   "gamma":2,
   "lr":1e-4,
+  "batch_size": 64,
   "model_name": "DTC-m6Am",
   "train_file": "train.csv",
   "monitor": "valid_S",

@@ -9,7 +9,6 @@ class ChannelAttention(nn.Module):
         self.avgpool = nn.AdaptiveAvgPool1d(1)
         self.maxpool = nn.AdaptiveMaxPool1d(1)
 
-        # 确保通道数不会为零
         reduced_channel = max(channel // reduction, 1)
 
         self.se = nn.Sequential(

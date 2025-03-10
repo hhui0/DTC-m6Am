@@ -1,4 +1,6 @@
 # DTC-m6Am
+![AUR](https://img.shields.io/badge/license-MIT-blue.svg)
+![python](https://img.shields.io/badge/python-=3.10-success.svg)
 ## Requirements
 To use this project, you need to install the following libraries:
 
