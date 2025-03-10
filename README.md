@@ -1,9 +1,7 @@
 # DTC-m6Am
-![AUR](https://img.shields.io/badge/license-MIT-blue.svg)
-![python](https://img.shields.io/badge/python-=3.10-success.svg)
 ## Requirements
 To use this project, you need to install the following libraries:
-
+- python                    3.10.14
 - torch                     2.0.0+cu118
 - pandas                    2.1.1                   
 - pytorch-lightning         2.0.8                    
